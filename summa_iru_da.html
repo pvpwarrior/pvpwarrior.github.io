@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>photography</title>
+
+	<style type="text/css">
+	* {
+  		-webkit-font-smoothing: antialiased;
+  		-moz-osx-font-smoothing: grayscale;
+	}
+	video {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(100px) translateZ(1px);
+  transform: perspective(100px) translateZ(1px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+video:hover, video:focus, video:active {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+a {
+
+	color: #1C00F0;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #FAAC58;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+a:hover:before, a:focus:before, a:active:before {
+  right: 0;
+}
+
+
+
+
+	nobr{
+		font-weight: 1000;
+		font-size: 4rem;
+    
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.76);
+    width: auto;
+	}
+	nobr:hover {
+		font-weight: 1000;
+		color: #1C7FFF;
+		transition: color .2s;
+	}
+	.blue{
+		color: #1C7FFF;
+	}
+	.blue:hover{
+		color: rgba(0, 0, 0, 0.76);
+	}
+	</style>
+</head>
+<body bgcolor="white" leftmargin = 20 topmargin=20>
+<!-- <nobr>s</nobr><nobr class=blue>u</nobr><nobr>m</nobr><nobr>m</nobr><nobr>a</nobr><nobr> </nobr><nobr>i</nobr><nobr>r</nobr><nobr>u</nobr><nobr> </nobr><nobr>d</nobr><nobr>a</nobr> --><center>
+	<video src = "summa_iru_da.mp4" autoplay="true" loop="true" width="720" height="405" controls="control"></video></center>
+	<br><br>
+	summa irunga bro pls.
+	<br><br>
+	P.S. this is a JOKE. please dont be mad at me.<br><br>
+	<br>
+	<a href="index.html">main page</a>
+
+</body>
+</html>

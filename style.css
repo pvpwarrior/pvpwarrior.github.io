@@ -5,7 +5,7 @@
 html {
     font-family: 'Avenir', sans-serif;
     background-color: rgba(0, 0, 0, 0.88);;
-    font-weight: 400;
+    /*font-weight: 400;*/
     color: rgba(255, 255, 255, 0.76);
 }
 
@@ -38,7 +38,8 @@ a:hover {
     background-size: 4px 50px;
 }
 nobr {
-    font-size: 4.5rem;
+    font-weight: 900;
+  font-size: 4.5rem;
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
